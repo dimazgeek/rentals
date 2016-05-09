@@ -1,0 +1,32 @@
+#########################################################################################
+# Directives for custom error documents
+
+errorDocument 404 /~dardhi/dimaz_ardhi/eventnews/apache_htaccess/404.html
+
+#
+#########################################################################################
+# Expiration Headers
+
+ExpiresActive On
+ExpiresByType text/css A604800
+ExpiresByType image/gif A604800
+ExpiresByType image/jpeg A604800
+ExpiresByType image/png A604800
+ExpiresByType application/x-javascript A604800
+
+#
+#########################################################################################
+# Compression Filters
+
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/x-javascript
+
+#
+#########################################################################################
+# Custom redirect
+
+Redirect 302  /~dardhi/dimaz_ardhi/cscie12_assignment4/apache_htaccess/myfavoritebook http://www.amazon.com/gp/product/B00G15MDI0/ref=s9_simh_gw_p14_d0_i2?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=1E1ZKH0BNPA47XEZBVRH&pf_rd_t=36701&pf_rd_p=2079475242&pf_rd_i=desktop
+

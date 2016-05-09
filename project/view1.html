@@ -1,0 +1,19 @@
+<div class="container" style="margin:0px 100px 0px 500px;">
+    Name:<input type="text" ng-model="filter.name">
+    <br/>
+    <ul>
+        <li ng-repeat="friend in friends | filter:filter.name | orderBy:'fname'">{{friend.fname}} {{friend.lname}}</li>
+    </ul>
+    <br/>
+    <fieldset style="width:200px;">
+        <legend>Add Friend</legend>
+        <form name="addcustomer" method="POST">
+            First Name:<input type="text" ng-model="newFriend.fname" name="firstname"/>
+            <br/>
+            Last Name :<input type="text" ng-model="newFriend.lname" name="lastname"/>
+            <br/>
+            <button data-ng-click="addNewFriend()" name="add">Add Friend</button>
+        </form>
+    </fieldset>
+    <a href="#/view2" style="margin:auto;">Next</a>
+</div>

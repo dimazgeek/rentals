@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+header {margin-top: 1em;}
+header h1 { padding-left: 160px; padding-top: 20px; background-image: url(../images/flag.gif); background-repeat: no-repeat; background-position: left; min-height: 70px; background-color: #eeeeff;}
+
+footer { font-size: smaller; background-color: #eeeeff;}
+footer p { padding: 1em; }
+
+nav ul {list-style: none; padding: 0;}
+nav ul li a {display: block;text-decoration: none; padding: 0.5em 0 0.5em 1em; border: thin solid navy; font-weight: bold;}
+nav ul li a:link {display: block;}
+nav ul li a:visited {display: block;}
+nav ul li a:hover {display: block; border: thin solid white; background-color: navy; color: white;}
+nav ul li a:active {display: block;}
+
+#i nav ul li#one a,
+#i nav ul li#one a:link,
+#i nav ul li#one a:visited,
+#i nav ul li#one a:hover { color: #ff0000; background-color: #ffffff; border: thin solid navy;}
+
+#ii nav ul li#two a,
+#ii nav ul li#two a:link,
+#ii nav ul li#two a:visited,
+#ii nav ul li#two a:hover { color: #ff0000; background-color: #ffffff; border: thin solid navy;}
+
+#iii nav ul li#three a,
+#iii nav ul li#three a:link,
+#iii nav ul li#three a:visited,
+#iii nav ul li#three a:hover { color: #ff0000; background-color: #ffffff; border: thin solid navy;}
+
+#iv nav ul li#four a,
+#iv nav ul li#four a:link,
+#iv nav ul li#four a:visited,
+#iv nav ul li#four a:hover { color: #ff0000; background-color: #ffffff; border: thin solid navy;}
+
+#v nav ul li#five a,
+#v nav ul li#five a:link,
+#v nav ul li#five a:visited,
+#v nav ul li#five a:hover { color: #ff0000; background-color: #ffffff; border: thin solid navy;}
+
+#vi nav ul li#six a,
+#vi nav ul li#six a:link,
+#vi nav ul li#six a:visited,
+#vi nav ul li#six a:hover { color: #ff0000; background-color: #ffffff; border: thin solid navy;}
+
+#vii nav ul li#seven a,
+#vii nav ul li#seven a:link,
+#vii nav ul li#seven a:visited,
+#vii nav ul li#seven a:hover { color: #ff0000; background-color: #ffffff; border: thin solid navy;}
+
+#amani nav ul li#aman a,
+#amani nav ul li#aman a:link,
+#amani nav ul li#aman a:visited,
+#amani nav ul li#aman a:hover { color: #ff0000; background-color: #ffffff; border: thin solid navy;}
+
+nav ul li { margin-bottom: 0; margin-top: 0; padding-top: 0; padding-bottom: 0;}

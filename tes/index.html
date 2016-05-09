@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div id="header">
+			<p id="name">Your Name Here</p>
+			<a href="mailto:you@yourdomain.com"><p id="email">you@yourdomain.com</p></a>
+		</div>
+		<div class="left">
+		<a href="department_listing.xslt">
+		department_listing
+		<a/>
+		<p>
+		<input type="search" id="mySearch" placeholder="Search for something..">
+		<button onclick="myFunction()">search</button>
+		</p>
+			<p id="csearch"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("mySearch").placeholder;
+    document.getElementById("csearch").innerHTML = x;
+}
+</script>
+		</div>
+		<div class="right">
+			
+		</div>
+		<div id="footer">
+			<p></p>
+		</div>
+	</body>
+</html>
